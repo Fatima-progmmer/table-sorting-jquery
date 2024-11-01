@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(rgb(168, 186, 168), rgb(219, 172, 172));
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.sort-asc::after {
+    content: "\25B2";
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.sort-desc::after {
+    content: "\25BC";
+    font-size: 12px;
+    margin-left: 5px;
+}
